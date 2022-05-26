@@ -26,3 +26,4 @@ touch $newfile			#use create new file
 echo "youe hostname is ${HOSTNAME}"	#HOSTNAME is varible in system
 ls
 sudo apt-get update
+
