@@ -1,0 +1,15 @@
+sudo apt-key adv --keyserver pgpkeys.mit.edu --recv-keys ED444FF07D8D0BF6
+sudo ifconfig vmnet1 154.0.0.2 netmask 255.255.255.0 up
+
+apt install git htop 
+apt install linux-headers-$(unmae -r) 
+
+openssl req -new -x509 -newkey rsa:2048 -keyout nameKey.priv -outform DER -out nameKey.der -nodes -days 36500 -subj "/CN=VMware/"
+sudo /usr/src/linux-headers-`uname -r`/scripts/sign-file sha256 ./nameKey.priv ./MOK.der $(/sbin/modinfo -n vmmon)
+sudo /usr/src/linux-headers-`uname -r`/scripts/sign-file sha256 ./nameKey.priv ./MOK.der $(/sbin/modinfo -n vmnet)
+
+
+lspci | egrep -i --color 'network|ethernet|wireless|WiFi'
+
+apt install weechat emacs 
+

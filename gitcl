@@ -10,3 +10,5 @@
      ssh-keygen														#generate key and add the key in github
      ssh -T git@github.com
      git push -u origin master
+git config --global core.excludesFile /home/alprof/.gitignore_global
+git restore plug.vim

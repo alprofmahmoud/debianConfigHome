@@ -1,0 +1,14 @@
+# This is Git's per-user configuration file.
+[user]
+	name = alprof
+	email = alprof@mlab
+# Please adapt and uncomment the following lines:
+#	name = alprof
+#	email = alprof@debian-BULLSEYE-live-builder-AMD64
+[core]
+	editor = nvim
+	excludesFile = /home/alprof/.gitignore_global
+                          
+[alias]
+	st = status
+	cm = commit -m
