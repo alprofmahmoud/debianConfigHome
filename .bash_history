@@ -2285,3 +2285,275 @@ tree -d .config/
 tree --help
 tree -d -L 2 .config/
 ls
+سير
+sdv
+locate sdv
+locate -d ~ sdv
+ls
+pwsh
+sudo apt-get install powershell
+cd /media/data/gnu-linux/glinux-programs/deb-programs/
+ls
+sudo dpkg -i powershell_7.2.3-1.deb_amd64.deb 
+cd
+pwsh
+pwsh sdv.ps1 
+ssh -T git@github.com
+git push origin main
+git pull origin main
+git st
+git add .bashrc gitcl .bash_history .bash_logout .gitconfig .gitignore_global impcl sdv.ps1 
+git cm "config use to debian"
+git st
+git pull origin main
+git push origin main
+git st
+cd .ssh/
+ls
+cd config 
+ll
+cd config 
+cd
+vi .gitignore_global
+git
+git st
+vi .ssh/config 
+git add .ssh/
+git st
+vi .gitignore_global
+git st
+git reset .ssh
+git st
+git add .ssh/
+git st
+git reset .ssh
+vi .gitignore_global
+git add .ssh/
+git reset .ssh
+git add .ssh/
+git st
+git reset .ssh
+vi .gitignore_global
+git add .ssh/
+git st
+vi .gitignore_global
+git st
+git reset .ssh
+git add .ssh/
+git st
+git reset .ssh
+vi .gitignore_global
+git st
+git add .ssh/
+git st
+vi .gitignore_global
+git clone https://github.com/alprofmahmoud/termux_repo/edit/main/sdv.sh
+wget https://github.com/alprofmahmoud/termux_repo/edit/main/sdv.sh
+chmod u+x sdv.sh 
+./sdv.sh 
+sh sdv.sh 
+vi sdv.sh 
+./scpt.sh 
+git clone git@github.com:alprofmahmoud/termux_repo.git
+sh termux_repo/sdv.sh 
+sudo apt-get install yt-dlp
+sh termux_repo/sdv.sh 
+vi termux_repo/sdv.sh 
+sh termux_repo/sdv.sh 
+vlc /media/data/Tutorials/vim-LaTeX-Zathura/vim-LaTeX-zathura-2-\(basic_plugin\)-\(Arabic\)\ ｜\ عربي.mp4 
+ls
+ll
+ls
+mkdir vim-LaTeX-Zathura
+mkdir vim-LaTeX-zathura-* vim-LaTeX-Zathura/
+mv vim-LaTeX-zathura-* vim-LaTeX-Zathura/
+ls
+apt-cache search z
+sudo apt-get install z
+sudo apt-get install fzf
+vi .gitignore_global
+git st
+vi .gitignore_global
+git st
+git add .config/
+git st
+git reset .config/
+git st
+vi .gitignore_global
+git add .config/
+git st
+git reset .config/
+vi .gitignore_global
+git st
+git add .config/
+git st
+$HOME/
+vi .gitignore_global
+git add .config/
+git st
+git reset .config/
+git st
+git add .config/
+git st
+git reset .config/
+git st
+vi .gitignore_global
+git st
+git add .config/
+git st
+vi .gitignore_global
+git reset .config/
+git add .config/
+git st
+vi .gitignore_global
+git reset .config/
+git add .config/
+git st
+vi
+vi .gitignore_global
+sudo mv -r vim-LaTeX-Zathura/ /media/data/Tutorials/
+sudo mv  vim-LaTeX-Zathura/ /media/data/Tutorials/
+git st
+uname -o
+uname -a
+uname -i
+uname -m
+uname -v
+uname -n
+uname -s
+uname -sp
+uname -p
+uname -h
+uname --help
+uname -o
+
+uname -r
+sdv
+sdv.sh
+sh sdv.sh
+ls
+rm sdv.sh 
+mv termux_repo/sdv.sh .
+ls
+rm sdv.sh 
+cd termux_repo/
+ls
+vi sdv.sh~ 
+git st
+git restore sdv.sh
+git st
+vi sdv.sh
+mv sdv.sh ..
+cd
+ls
+sh sdv.
+sh sdv.sh 
+sudo vi .bashrc
+source .bashrc
+sdv
+source .bashrc
+sdv
+vds
+source .bashrc
+sudo vi .bashrc
+source .bashrc
+sdv
+ls
+mkdir .config/nvim/ftplugin
+touch .config/nvim/ftplugin/c.vim
+touch .config/nvim/ftplugin/sh.vim
+mkdir .config/nvim/ftdetect
+touch .config/nvim/ftdetect/filetype.vim
+vi .config/nvim/ftdetect/filetype.vim 
+vim
+vi .config/nvim/ftdetect/filetype.vim 
+vim
+vi
+vim
+type vi
+type vim
+type nvim
+/usr/bin/vim
+/usr/bin/vi
+vi .config/nvim/ftdetect/filetype.vim 
+touch .config/nvim/ftplugin/tex.vim
+vi
+vi .config/nvim/ftplugin/tex.vim 
+history | grep ssh
+sudo snap start tradingview
+ssh -p 8022 u0_a300@20.20.3.55
+ssh -p 8022 u0_a300@20.20.3.150
+ping 20.20.3.150
+ssh -p 8022 u0_a300@20.20.3.150
+vi
+locate view
+locate t*view
+locate t* view
+apt-cache search teamview
+apt-cache search team-view
+ls
+sudo dpkg -i teamviewer_15.36.8_amd64.deb 
+apt search nvidia
+exit
+neofetch
+sudo apt install eeofetch
+sudo apt install neofetch
+neofetch
+lsmod | grep nvidia
+lsmod | grep nouveau
+lsmod | grep nou
+lsmod
+lsmod | grep amd
+lsmod | grep intel
+lsmod | grep intel | vim -
+neofetch 
+sudo apt install nvidia-drm
+sudo apt search hnviida
+sudo apt search nvidia
+sudo apt search nvidia | vim -
+tmux nw -s idk
+tmux new -s idk
+tmux new -s sudo apt install tmux
+sudo apt intsall tmux
+sudo apt install tmux
+tmux new -s idk
+cleasr
+clear
+cd Downlodas
+cd Downloads/
+ls
+watch ls
+cd Dls
+ls
+sudo apt install ./anydesk_6.2.1-1_amd64.deb 
+anydesk
+sudo apt remove xserver-xorg-video-intel
+sudo apt install nvidia-driver firmware-misc-nonfree
+systemctl reboot
+udo apt install intel-gpu-tools nvidia-smi vulkan-tools
+sudo apt install intel-gpu-tools nvidia-smi vulkan-tools
+nvidia-smi -l
+vkcube
+nvidia-settings 
+lsmod | grep nvidia
+ping 20.20.0.1
+ping 192.168.1.1
+ping 20.0.0.1
+ping 123.com
+ls
+sudo mv teamviewer_15.36.8_amd64.deb /media/data/gnu-linux/glinux-programs/deb-programs/
+sudo apt-get install gimp
+./sdv.sh 
+ssh -p 8022 u0_a300@20.20.0.30
+ping 20.20.0.30
+ifconfig
+sudo ifconfig
+20.20.1.253
+ping 20.20.1.253
+ping 20.20.1.30
+ping 20.20.0.30
+ssh -p 8022 u0_a300@20.20.0.30
+sdv
+glxinfo 
+glxinfo | grep -l opengl
+glxinfo | grep -i opengl
