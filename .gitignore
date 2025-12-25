@@ -1,0 +1,227 @@
+# ============================================
+# Debian Home Directory Configuration Backup
+# ============================================
+
+# ================== Security & Sensitive Data ==================
+# SSH Keys - Major security risk!
+.ssh/
+!.ssh/config
+# If you want to upload SSH config without keys, remove the exclamation from above line
+
+# GPG Keys
+.gnupg/
+
+# Browsers - Passwords, Cookies, History
+.mozilla/
+.config/BraveSoftware/
+
+# Email Clients
+.thunderbird/
+
+# Password Managers & Wallets
+.config/Bitwarden/
+.config/Signal/
+.config/Binance/
+.config/Exodus/
+
+# Certificates & PKI
+.pki/
+
+# ================== Cache & Temporary ==================
+.cache/
+.local/share/Trash/
+.local/share/baloo/
+.local/share/Recently Used.xbel
+.local/share/konsole/
+.local/share/kate/
+.var/
+*~
+*.swp
+*.swo
+*.log
+*.tmp
+
+# Akonadi Database (PIM data)
+.config/akonadi/
+.local/share/akonadi/
+.local/share/contacts/
+.local/share/notes/
+
+# ================== Node & Package Managers ==================
+node_modules/
+.npm/
+package-lock.json
+.n8n/
+
+# ================== Projects (Separate) ==================
+PyCharmMiscProject/
+PycharmProjects/
+ScriptDownloader/
+hs/
+
+# ================== Config Repos (if separate) ==================
+debianConfigHome/
+termux_config_repo/
+windowsConfigHome/
+
+# ================== ISOs & Large Files ==================
+*.iso
+*.img
+*.qcow2
+*.vmdk
+*.vdi
+
+# VMware
+vmware/
+.vmware/
+Shared Folder VMware/
+
+# ================== Oh-My-Zsh ==================
+# Exclude all oh-my-zsh and only upload .zshrc
+.oh-my-zsh/
+!.oh-my-zsh/custom/
+.zcompdump*
+
+# ================== Desktop Files ==================
+Desktop/
+Downloads/
+Pictures/
+OS/
+Kali.Linux.*/
+file.txt
+24world
+
+# ================== Vim ==================
+.vim/bundle/
+.vim/plugged/
+.viminfo
+
+# ================== Snap ==================
+snap/
+
+# ================== Session Files ==================
+.xsession-errors*
+.sudo_as_admin_successful
+.dmrc
+.wget-hsts
+.lesshst
+
+# ================== KDE/Plasma Session ==================
+.config/session/
+.config/kactivitymanagerd-statsrc
+.config/plasma-org.kde.plasma.desktop-appletsrc
+.config/kwinoutputconfig.json
+.config/plasmanotifyrc
+.config/baloofileinformationrc
+.face
+.face.icon
+
+# ================== Application Data ==================
+.config/balena-etcher/
+.config/vlc/
+.config/caja/
+.config/compiz/
+.config/dconf/
+.config/libreoffice/
+.config/tuta_integration/
+.config/tutanota-desktop/
+.config/uGet/
+.config/JetBrains/
+.config/Unknown Organization/
+
+# ================== History Files ==================
+.bash_history
+.bash_history~
+.zsh_history
+.python_history
+
+# ================== Java ==================
+.java/
+.Xauthority
+.local/
+.config/coc/
+.config/nvim/plugged/
+.config/nvim/package.json
+.config/pulse/
+.config/menus/
+.config/akonadi*
+.config/kmail*
+.config/Proton Mail/
+.config/KDE/
+.config/kde.org/
+.config/kdeconnect/
+.config/libaccounts-glib/
+.ovftool.ssldb
+.nvidia-settings-rc
+.shell.pre-oh-my-zsh
+.zshrc.pre-oh-my-zsh
+.zprofile
+.config/KDE-xdg-terminals.list
+.config/PlasmaDiscoverUpdates
+.config/QtProject.conf
+.config/Trolltech.conf
+.config/brasero/
+.config/big.flf
+.config/kactivitymanagerdrc
+.config/kalendaracrc
+.config/kconf_updaterc
+.config/kded5rc
+.config/kdedefaults/
+.config/kgammarc
+.config/khelpcenterrc
+.config/khtml/
+.config/kinfocenterrc
+.config/kiorc
+.config/konq_history
+.config/ksmserverrc
+.config/ktimezonedrc
+.config/phishingurlrc
+.config/plasma-localerc
+.config/plasma-nm
+.config/plasma-welcomerc
+.config/plasmavaultrc
+.config/powerdevil.notifyrc
+.config/specialmailcollectionsrc
+.config/trashrc
+.config/user-dirs.locale
+.config/webengineurlinterceptoradblockrc
+.config/xdg-desktop-portal-kderc
+.config/xdg-terminals.list
+.config/akregatorrc
+.config/arkrc
+.config/bluedevilglobalrc
+.config/discoverrc
+.config/dragonplayerrc
+.config/drkonqirc
+.config/emaildefaults
+.config/emailidentities
+.config/filetypesrc
+.config/kate-externaltoolspluginrc
+.config/katemetainfos
+.config/kcminputrc
+.config/klipperrc
+.config/kmenueditrc
+.config/kmixrc
+.config/konquerorrc
+.config/konsolesshconfig
+.config/kwalletrc
+.config/kxkbrc
+.config/okularpartrc
+.config/powerdevilrc
+.config/powermanagementprofilesrc
+.config/systemmonitorrc
+.config/systemsettingsrc
+lost+found/
+mahmoud.jpg
+# ================== Files to Upload ==================
+# Note: Git will upload everything not in .gitignore
+# Important files that will be uploaded:
+# - .bashrc, .profile, .zshrc.pre-oh-my-zsh
+# - .config/nvim/ (Neovim settings)
+# - .config/htop/
+# - .config/gtk-3.0/, .config/gtk-4.0/
+# - .config/konsolerc, .config/dolphinrc
+# - .config/katerc, .config/kdeglobals
+# - .config/kwinrc, .config/plasmarc
+# - .gitignore itself
+# - run_script.sh, vint-wrapper.sh

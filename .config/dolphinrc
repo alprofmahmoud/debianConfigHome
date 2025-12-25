@@ -1,0 +1,16 @@
+[General]
+LockPanels=false
+Version=202
+ViewPropsTimestamp=2025,12,5,5,11,49.118
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[KPropertiesDialog]
+1920x1080 screen: Height=449
+1920x1080 screen: Width=468
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled

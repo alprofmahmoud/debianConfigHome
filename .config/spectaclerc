@@ -1,0 +1,16 @@
+[$Version]
+update_info=spectacle_clipboard.upd:clipboard-settings-change,spectacle_rememberregion.upd:spectacle-migrate-rememberregion
+
+[GuiConfig]
+captureMode=2
+window-position=50,0
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Pictures/Screenshot_20251206_083456.png,file:$HOME/Pictures/Screenshot_20251220_003947.png,file:$HOME/Pictures/Screenshot_20251216_024627.png,file:$HOME/Pictures/Screenshot_20251209_165107.png,file:$HOME/Pictures/Screenshot_20251206_140900.png,file:$HOME/Pictures/Screenshot_20251206_111706.png,file:$HOME/Pictures/Screenshot_20251206_094425.png,file:$HOME/Pictures/Screenshot_20251206_084626.png
+Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/,file:$HOME/Documents/
+detailViewIconSize=16
+listViewIconSize=64
+
+[Save]
+lastSaveAsLocation=file:///home/mahmoud/Pictures/Screenshot_20251220_003947.png
+lastSaveLocation=file:///home/mahmoud/Pictures/Screenshot_20251220_003947.png

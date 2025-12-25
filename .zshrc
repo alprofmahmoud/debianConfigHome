@@ -108,7 +108,13 @@ alias ll='lsd -la'
 alias la='lsd -a'
 alias lt='lsd --tree'
 alias sdv='./run_script.sh'
+alias wget='wget -c -P ~/Downloads'
+alias src='source ~/.zshrc'
+# alias for editing with sudo
+alias svi='sudoedit'
 
+export EDITOR='nvim'
+export VISUAL='nvim'
 
 figlet -f standard Prof
 if [[ -z "$WELCOME_DONE" ]]; then
@@ -116,3 +122,6 @@ if [[ -z "$WELCOME_DONE" ]]; then
     print -P "The time is %F{yellow}$(date +%T)%f and this machine is called %F{green}$(hostname)%f"
     export WELCOME_DONE=1
 fi
+
+# Created by `pipx` on 2025-12-25 04:25:48
+export PATH="$PATH:/home/mahmoud/.local/bin"

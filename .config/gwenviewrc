@@ -1,0 +1,53 @@
+[$Version]
+update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update,gwenview.upd:DeleteThumbnailSetting_Rename
+
+[General]
+LastUsedVersion=210800
+SideBarPage=operations
+
+[ImageView]
+ThumbnailSplitterSizes=301,86
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=32
+Recent Files[$e]=file:$HOME/Pictures/IMG_20250930_184017_354.jpg,file:$HOME/Pictures/IMG_20250930_184017_354.jpg
+Recent URLs[$e]=file:$HOME/Pictures/
+listViewIconSize=64
+
+[MainWindow]
+1920x1080 screen: Height=753
+1920x1080 screen: Width=662
+1920x1080 screen: Window-Maximized=true
+1920x1080 screen: XPosition=640
+1920x1080 screen: YPosition=275
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAO5AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+eDP-1=eDP-1
+
+[Recent Files]
+File1[$e]=/media/mahmoud/e0eb039e-7994-4f93-ae8a-df911b95ee73/data-home/amr/IMG20200523181108.jpg
+File10[$e]=/media/mahmoud/e0eb039e-7994-4f93-ae8a-df911b95ee73/data-home/ipv6-stateless.png
+File2[$e]=/media/mahmoud/e0eb039e-7994-4f93-ae8a-df911b95ee73/data-home/amr/IMG20200527182629.jpg
+File3[$e]=/media/mahmoud/e0eb039e-7994-4f93-ae8a-df911b95ee73/data-home/amr/IMG20200527182633.jpg
+File4[$e]=/media/mahmoud/e0eb039e-7994-4f93-ae8a-df911b95ee73/data-home/amr/IMG20200702185923.jpg
+File5[$e]=/media/mahmoud/e0eb039e-7994-4f93-ae8a-df911b95ee73/data-home/amr/IMG20200731112746.jpg
+File6[$e]=/media/mahmoud/e0eb039e-7994-4f93-ae8a-df911b95ee73/data-home/amr/IMG20200731112919.jpg
+File7[$e]=/media/mahmoud/e0eb039e-7994-4f93-ae8a-df911b95ee73/data-home/amr/IMG20200731113000.jpg
+File8[$e]=/media/mahmoud/e0eb039e-7994-4f93-ae8a-df911b95ee73/data-home/amr/IMG20200809121654.jpg
+File9[$e]=/media/mahmoud/e0eb039e-7994-4f93-ae8a-df911b95ee73/data-home/amr/IMG20201001220902.jpg
+Name1[$e]=IMG20200523181108.jpg
+Name10[$e]=ipv6-stateless.png
+Name2[$e]=IMG20200527182629.jpg
+Name3[$e]=IMG20200527182633.jpg
+Name4[$e]=IMG20200702185923.jpg
+Name5[$e]=IMG20200731112746.jpg
+Name6[$e]=IMG20200731112919.jpg
+Name7[$e]=IMG20200731113000.jpg
+Name8[$e]=IMG20200809121654.jpg
+Name9[$e]=IMG20201001220902.jpg
+
+[SideBar]
+InformationSplitterSizes=216,259
+SideBarSplitterSizes=212,449

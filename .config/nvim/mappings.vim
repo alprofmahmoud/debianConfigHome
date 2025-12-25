@@ -14,6 +14,9 @@ let mapleader = ','
 " Save file
 nmap <C-s> :w<CR>
 
+" Save files with sudo privileges
+cnoremap w!! w !sudo tee % > /dev/null<CR>:edit!<CR>
+
 " Reload config
 nmap <C-d> :source $HOME/.config/nvim/init.vim<CR>
 
@@ -55,6 +58,9 @@ nnoremap <leader>y gg"*yG``
 " Copy all (yanking to default register)
 nnoremap <leader>ya ggVG
 
+" Paste from system with Ctrl+V
+nnoremap <C-v> "+p
+
 " ============================
 " Search
 " ============================
@@ -80,6 +86,9 @@ vnoremap <Tab> >gv
 
 " Indent left and stay in visual mode
 vnoremap <S-Tab> <gv
+
+" Copy to system in visual mode with Ctrl+C
+vnoremap <C-c> "+y
 
 " ============================
 " Python Execution

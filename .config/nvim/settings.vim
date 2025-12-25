@@ -35,7 +35,10 @@ set mouse=a
 set termbidi
 set arabicshape
 set updatetime=500
+set clipboard=unnamedplus
 
+" Save files with sudo privileges
+command! W execute 'silent! write !sudo tee % >/dev/null' | edit!
 " ============================
 " Neovim Specific
 " ============================
@@ -204,3 +207,76 @@ augroup PythonSetup
     autocmd!
     autocmd BufNewFile *.py call setline(1, '#!/usr/bin/env python3') | startinsert!
 augroup END
+" ============================
+" Fix sudoedit temporary files
+" ============================
+" This part solves color issues with sudoedit
+" Add it anywhere in the settings.vim file
+
+" Add regex engine setting for performance
+set re=0
+
+" Detect filetype from original filename (not temp name)
+augroup SudoeditFiletype
+    autocmd!
+    autocmd BufRead /var/tmp/*,/tmp/* call DetectSudoeditFiletype()
+augroup END
+
+function! DetectSudoeditFiletype()
+    let temp_name = expand('%:t')
+    let full_path = expand('%:p')
+    
+    " Common system files patterns - FIX: sourceslist not sourcelist
+    if temp_name =~? 'source' && temp_name =~? '\.list$'
+        " Set both filetype AND syntax explicitly
+        set filetype=sourceslist
+        set syntax=sourceslist
+    elseif temp_name =~? '\.conf$'
+        set filetype=conf | set syntax=conf
+    elseif temp_name =~? 'nginx'
+        set filetype=nginx | set syntax=nginx
+    elseif temp_name =~? 'apache'
+        set filetype=apache | set syntax=apache
+    elseif temp_name =~? 'fstab'
+        set filetype=fstab | set syntax=fstab
+    elseif temp_name =~? '^host' && temp_name !~? '\.'
+        set filetype=conf | set syntax=conf
+    elseif temp_name =~? '\.sh$'
+        set filetype=sh | set syntax=sh
+    elseif temp_name =~? 'bash\|profile'
+        set filetype=sh | set syntax=sh
+    elseif temp_name =~? '\.py$'
+        set filetype=python | set syntax=python
+    elseif temp_name =~? '\.js$'
+        set filetype=javascript | set syntax=javascript
+    elseif temp_name =~? '\.json$'
+        set filetype=json | set syntax=json
+    elseif temp_name =~? '\.ya?ml$'
+        set filetype=yaml | set syntax=yaml
+    elseif temp_name =~? '\.xml$'
+        set filetype=xml | set syntax=xml
+    elseif temp_name =~? '\.html?$'
+        set filetype=html | set syntax=html
+    elseif temp_name =~? '\.css$'
+        set filetype=css | set syntax=css
+    elseif temp_name =~? '\.service$\|\.timer$'
+        set filetype=systemd | set syntax=systemd
+    elseif temp_name =~? '\.php$'
+        set filetype=php | set syntax=php
+    else
+        set filetype=conf | set syntax=conf
+    endif
+    
+    " Force reload syntax
+    syntax enable
+    syntax on
+    
+    " Debug message
+    echom "Detected filetype: " . &filetype . " | syntax: " . &syntax
+endfunction
+
+" ============================
+" Improve colors in Terminal
+" ============================
+" This part improves color display
+set t_Co=256
